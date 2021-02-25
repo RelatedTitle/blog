@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+  {{ if eq .Section "posts" }}
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ .Title }},
+    "image": {{ .Params.featuredImage | absURL }},
+    "datePublished": {{ .PublishDate }},
+    "dateModified": {{ .Lastmod }},
+    "author": {
+      "@type": "Person",
+      "name": "RelatedTitle"
+    },
+    "mainEntityOfPage": { "@type": "WebPage" },
+     "publisher": {
+      "@type": "Organization",
+      "name": "RelatedTechNetwork",
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ .Site.Params.logo }}
+      }
+    },
+    "description": {{ .Summary | plainify | safeHTML }},
+    "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+  }
+  {{ end }}
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "RelatedTechNetwork",
+    "url": "https://blog.relatedtechnetwork.com",
+    "sameAs": [
+      "https://github.com/RelatedTitle"
+    ]
+  }
+</script>
