@@ -21,7 +21,7 @@
 <meta name="author" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}" />
 {{ end }}
 {{ if or (.Params.description) (.Site.Params.description) }}
-<meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta name="description" content="{{ if .Summary  }} {{ .Summary}} {{ else }}{{ .Site.Params.description }}{{ end }}" />
 {{ end }}
 {{ if .Params.tags }}
 <meta name="keywords" content="{{ delimit .Params.tags ", " }}" />
@@ -41,3 +41,4 @@
 {{ end }}
 {{ partial "schema.html" . }}
 {{ partial "cfanalytics.html" . }}
+

@@ -37,7 +37,7 @@ paginate = 10
 [params]
   author = "RelatedTitle" # You can also set author in post front matter individually
   logo = "img/logo.png"
-  subTitle = "Articles related to technology."
+  subTitle = "RelatedTechNetwork focuses on spreading reliable information regarding technology, we focus on making quality, information-rich, and accessible articles, posts, videos, etc"
 
   # Source URL of the website, will appear in the footer
   sourceURL = "https://github.com/relatedtitle/blog"
@@ -58,7 +58,7 @@ paginate = 10
 
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
-  description = "Articles related to technology."
+  description = "RelatedTechNetwork focuses on spreading reliable information regarding technology, we focus on making quality, information-rich, and accessible articles, posts, videos, etc"
   og = "/img/og.png" # This will use the image called og.png in static/img folder
 
   # Posts shown in homepage
