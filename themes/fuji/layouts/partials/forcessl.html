@@ -1,0 +1,6 @@
+<script>
+  // Temporary fix to address CloudFlare Pages' inability to use "Always HTTPS", Page Rules, etc.
+  if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+  }
+</script>
