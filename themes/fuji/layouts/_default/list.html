@@ -1,7 +1,7 @@
 {{ define "main" }}
 <!-- homepage range in all posts -->
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-{{ range $paginator.Pages }}
+{{ range (where $paginator.Pages ".Params.unlisted" "!=" "true") }}
 <div class="post">
     <h2 class="post-item post-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>

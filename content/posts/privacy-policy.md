@@ -1,5 +1,7 @@
 ---
 title: "Privacy Policy"
+
+unlisted: true
 ---
 
 ## Privacy Policy

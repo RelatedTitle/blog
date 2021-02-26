@@ -114,18 +114,6 @@ utterancesIssueTerm = "url"
     url = "/"
     weight = 1
   [[menu.nav]]
-    name = "Archives"
-    url = "/archives/"
-    weight = 2
-  [[menu.nav]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-  [[menu.nav]]
-    name = "Search"
-    url = "/search/"
-    weight = 4
-  [[menu.nav]]
     name = "RSS"
     url = "/index.xml"
     weight = 5

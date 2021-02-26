@@ -1,7 +1,8 @@
 ---
 title: "Making Artificial Intelligence create questions."
-date: 2020-01-04T00:00:00-00:00
 tags: ["Artificial Intelligence", "AI", "TextGenRNN"]
+date: 2020-01-04T00:00:00-00:00
+lastmod: 2021-02-25T00:00:00-00:00
 draft: false
 ---
 

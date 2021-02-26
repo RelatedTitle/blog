@@ -5,7 +5,7 @@
 </div>
 <!-- tags page range in posts with current tag -->
 {{ $paginator := .Paginator }}
-{{ range $paginator.Pages }}
+{{ range (where $paginator.Pages ".Params.unlisted" "!=" "true") }}
 <div class="post">
     <h2 class="post-item post-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>

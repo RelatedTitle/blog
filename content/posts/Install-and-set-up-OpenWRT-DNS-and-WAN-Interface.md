@@ -1,6 +1,8 @@
 ---
 title: "How to install and set up OpenWRT, DNS, and a WAN Interface."
+tags: ["OpenWRT", "DNS", "WAN", "Tutorial"]
 date: 2019-11-23T00:00:00-00:00
+lastmod: 2021-02-25T00:00:00-00:00
 draft: false
 ---
 
