@@ -1,4 +1,57 @@
 ---
 label: Blog Post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    max: 500
+  label: Title
+  description: Blog post title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: Blog post description.
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Blog post tags (also used as keywords in metadata).
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: Blog post featured image.
+- name: date
+  type: datetime
+  label: Published Date
+  description: Date the blog post was published.
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: true
+  default: now
+- name: lastmod
+  type: datetime
+  label: Last Modification Date
+  description: Last time the blog post was modified.
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: true
+  default: now
+- name: draft
+  type: boolean
+  label: Draft
+  description: Whether the blog post is a draft or not.
+- name: unlisted
+  type: boolean
+  label: Unlisted
+  description: Whether the post is unlisted from the home page or not. (Still accessible
+    from link, etc)
