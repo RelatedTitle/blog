@@ -1,11 +1,16 @@
 ---
-title: "Making Artificial Intelligence create questions."
-tags: ["Artificial Intelligence", "AI", "TextGenRNN"]
-date: 2020-01-04T00:00:00-00:00
-lastmod: 2021-02-25T00:00:00-00:00
-draft: false
----
+title: Making Artificial Intelligence create questions.
+tags:
+- Artificial Intelligence
+- AI
+- TextGenRNN
+date: 2020-01-04T00:00:00.000+00:00
+lastmod: 2021-02-25T00:00:00.000+00:00
+description: ''
+image: ''
+unlisted: false
 
+---
 I’ve always wondered about the extent of Artificial Intelligence and how close could it come to being able to establish dialogue with a human and be completely unrecognizable from a real person. I thought about one of the main components that a dialogue’s structure is made from, questions. So, in an attempt to be able to have a decent dialogue with an AI, I made an AI create questions.
 
 ## Training Data
