@@ -1,9 +1,13 @@
 ---
-title: "Privacy Policy"
-
+title: Privacy Policy
 unlisted: true
----
+tags: []
+date: 2021-02-26T01:41:45-06:00
+lastmod: 2021-02-26T01:41:45-06:00
+description: ''
+image: ''
 
+---
 ## Privacy Policy
 
 At RelatedTechNetwork, your privacy is really important to us (and we mean it). **We do not store any of your personally identifiable information**.

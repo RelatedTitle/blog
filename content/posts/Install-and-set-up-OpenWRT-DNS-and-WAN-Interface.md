@@ -1,11 +1,18 @@
 ---
-title: "How to install and set up OpenWRT, DNS, and a WAN Interface."
-tags: ["OpenWRT", "DNS", "WAN", "Tutorial"]
-date: 2019-11-23T00:00:00-00:00
-lastmod: 2021-02-25T00:00:00-00:00
-draft: false
----
+title: How to install and set up OpenWRT, DNS, and a WAN Interface.
+tags:
+- OpenWRT
+- DNS
+- WAN
+- Tutorial
+date: 2019-11-23T00:00:00.000+00:00
+lastmod: 2021-02-25T00:00:00.000+00:00
+description: 'In this tutorial, I will show you how to set up OpenWRT, DNS, and a
+  WAN interface. '
+image: ''
+unlisted: false
 
+---
 In this tutorial, I will show you how to set up OpenWRT, DNS, and a WAN interface. Before we begin, you should be aware that any firmware changes you do to your device might brick it. If you are technically knowledgable and assume the risks, continue on with the tutorial. Also, note that OpenWRT recommends at least 4MB storage and 32 MB RAM.
 
 ## What is OpenWRT?

@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: directory
@@ -14,9 +14,9 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
-upload_dir: static/uploads
-public_path: "/uploads"
+  new_doc_ext: md
+upload_dir: themes/fuji/static/content
+public_path: "/content"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
