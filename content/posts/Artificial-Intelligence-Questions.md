@@ -7,7 +7,7 @@ tags:
 date: 2020-01-04T00:00:00.000+00:00
 lastmod: 2021-02-25T00:00:00.000+00:00
 description: ''
-image: ''
+image: "/content/ai-questions-img.png"
 unlisted: false
 
 ---
