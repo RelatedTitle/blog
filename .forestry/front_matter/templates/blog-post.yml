@@ -57,3 +57,4 @@ fields:
     from link, etc)
 pages:
 - content/posts/Artificial-Intelligence-Questions.md
+- content/posts/Install-and-set-up-OpenWRT-DNS-and-WAN-Interface.md
