@@ -6,9 +6,8 @@ tags:
 - WAN
 - Tutorial
 date: 2019-11-23T00:00:00.000+00:00
-lastmod: 2021-02-25T00:00:00.000+00:00
-description: 'In this tutorial, I will show you how to set up OpenWRT, DNS, and a
-  WAN interface. '
+lastmod: 2021-02-24T18:00:00-06:00
+description: ''
 image: ''
 unlisted: false
 
