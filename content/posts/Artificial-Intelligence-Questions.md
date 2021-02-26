@@ -1,5 +1,5 @@
 ---
-title: Making Artificial Intelligence create questions.
+title: '"Making Artificial Intelligence create questions."'
 tags:
 - Artificial Intelligence
 - AI
